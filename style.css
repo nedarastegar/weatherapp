@@ -1,0 +1,74 @@
+
+div.main{
+    background: beige;
+    display: flex;
+    width: 52%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: stretch;
+}
+div ul.country{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+div.country ul li{
+    display: inline-block;
+    padding: 0px 10px;  
+}
+div ul.degree{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+div.degree ul li{
+    display: inline-block;
+    padding: 0px 10px;  
+}
+
+div ul.days{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+div.days ul li{
+    display: inline-block;
+    padding: 0px 26px;  
+}
+
+div.search{
+    width: 100%;
+    height: 35px;
+    padding-left: 50px;
+}
+h2,h4,h1,h3,h5,h6,p{
+    display: inline-block;
+    padding: 0px 0px;
+    margin-bottom: 0px;
+}
+button{
+    background-color: rgb(106, 231, 106);
+    height: 35px;
+}
+input{
+    width: 40%;
+    height: 30px;
+}
+
+span.units{
+    left: 0px;
+    position: relative;
+    top: -20px;
+}
+
+span.cloud{
+    font-size: 40px;
+    margin-left: 44px;
+}
