@@ -1,74 +1,79 @@
-
-div.main{
-    background: beige;
-    display: flex;
-    width: 52%;
-    height: auto;
+body {
+    font-family: arial, sans-serif;
+  }
+  
+  h1 {
+    color: #24045f;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+    color: rgb(24, 24, 24);
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+  }
+  
+  li:first-letter {
+    text-transform: capitalize;
+  }
+  
+  .weather-app-wrapper {
     border-radius: 10px;
-    margin: 20px auto;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 1px 2px 1px 1px #d7d1d1;
+    background-image:url('src/img/images.jfif');
+    background-size:cover;
+  }
+  
+  .weather-app {
     padding: 20px;
-    flex-direction: column;
-    align-content: space-around;
-    align-items: stretch;
-}
-div ul.country{
-    list-style: none;
-    display: inline-block;
-    
-}
-
-div.country ul li{
-    display: inline-block;
-    padding: 0px 10px;  
-}
-div ul.degree{
-    list-style: none;
-    display: inline-block;
-    
-}
-
-div.degree ul li{
-    display: inline-block;
-    padding: 0px 10px;  
-}
-
-div ul.days{
-    list-style: none;
-    display: inline-block;
-    
-}
-
-div.days ul li{
-    display: inline-block;
-    padding: 0px 26px;  
-}
-
-div.search{
-    width: 100%;
-    height: 35px;
-    padding-left: 50px;
-}
-h2,h4,h1,h3,h5,h6,p{
-    display: inline-block;
-    padding: 0px 0px;
-    margin-bottom: 0px;
-}
-button{
-    background-color: rgb(106, 231, 106);
-    height: 35px;
-}
-input{
-    width: 40%;
-    height: 30px;
-}
-
-span.units{
-    left: 0px;
+    border: 1px solid #dadde1;
+    border-radius: 5px;
+  }
+  
+  .overview {
+    margin-bottom: 20px;
+  }
+  
+  .weather-temperature img {
+    margin-right: 5px;
+    height: 64px;
+    width: 64px;
+  }
+  
+  .weather-temperature strong {
+    color: rgb(146, 146, 146);
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 400;
+  }
+  
+  .weather-temperature .units {
     position: relative;
-    top: -20px;
-}
-
-span.cloud{
-    font-size: 40px;
-    margin-left: 44px;
-}
+    font-size: 16px;
+    top: -34px;
+  }
+  
+  .weather-temperature .active {
+    color: rgb(70, 70, 70);
+    cursor: default;
+  }
+  
+  .weather-temperature .active:hover {
+    text-decoration: none;
+  }
+  
